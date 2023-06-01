@@ -1,12 +1,12 @@
 import { promisify } from 'util';
 import { createClient } from 'redis';
 /**
- * This class will represent our Redis client.
+* This class will represent our Redis client.
  */
 class RedisClient {
     /**
-   * Creates a new RedisClient instance.
-   */
+     * Creates a new RedisClient instance.
+     */
     constructor() {
         this.ClientConnected = false;
         this.client = createClient();
